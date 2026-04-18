@@ -56,8 +56,10 @@ const subscriptions = [
 const Home = () => {
   return (
     <div className={styles.container}>
-      <Aside subscriptions={subscriptions} />
-      <Main chips={chips} />
+      <div className={styles.containerWrapper}>
+        <Aside subscriptions={subscriptions} />
+        <Main chips={chips} />
+      </div>
     </div>
   );
 };

@@ -1,11 +1,7 @@
 .container {
+  width: 100%;
+
+  &Wrapper {
     display: flex;
-
-    &Aside {
-        flex: 4;
-    }
-
-    &Main {
-        flex: 4;
-    }
+  }
 }

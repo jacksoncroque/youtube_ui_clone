@@ -9,32 +9,39 @@ import { MdOutlineWatchLater } from "react-icons/md";
 import { SlLike } from "react-icons/sl";
 import { GoVideo } from "react-icons/go";
 import { MdDownload } from "react-icons/md";
+import { MdNavigateNext } from "react-icons/md";
 
 const Aside = ({ subscriptions }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.containerMain}>
+      <section className={styles.containerMain}>
         <div className={styles.containerMainHome}>
-          <AiFillHome />
-          <a href="/">Início</a>
+          <div className={styles.containerMainHomeInit}>
+            <AiFillHome />
+            <a href="/">Início</a>
+          </div>
+          <div className={styles.containerMainHomeShorts}>
+            <SiYoutubeshorts />
+            <a href="/">Shorts</a>
+          </div>
         </div>
-        <div className={styles.containerMainHome}>
-          <SiYoutubeshorts />
-          <a href="/">Shorts</a>
+      </section>
+      <section className={styles.containerSubs}>
+        <div className={styles.containerSubsOne}>
+          <span>Inscrições</span>
+          <MdNavigateNext />
         </div>
-      </div>
-      <div className={styles.containerSubs}>
-        <div className={styles.containerChannels}>
+        <div className={styles.containerSubsChannels}>
           {subscriptions.map((subscribe) => {
             return (
-              <React.Fragment key={subscribe.id}>
+              <div key={subscribe.id} className={styles.containerSubsChannelsItem}>
                 <img src={subscribe.url} alt="Canal" />
                 <span>{subscribe.name}</span>
-              </React.Fragment>
+              </div>
             );
           })}
         </div>
-      </div>
+      </section>
       <div className={styles.containerYou}></div>
     </div>
   );
