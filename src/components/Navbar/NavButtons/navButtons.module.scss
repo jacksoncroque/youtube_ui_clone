@@ -33,10 +33,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 1rem 0 0;
 
     &Button {
-      height: 2.25rem;
-      width: 2.25rem;
+      height: 2.5rem;
+      width: 2.5rem;
       border-radius: 9999px;
       cursor: pointer;
       display: flex;

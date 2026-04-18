@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+
+    &Aside {
+        flex: 4;
+    }
+
+    &Main {
+        flex: 4;
+    }
+}
