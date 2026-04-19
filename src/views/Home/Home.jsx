@@ -3,6 +3,28 @@ import styles from "./home.module.scss";
 import Aside from "./Aside/Aside";
 import Main from "./Main/Main";
 
+import ytMusic from "../../../public/images/icons/Youtube_Music_icon.svg";
+import ytKids from "../../../public/images/icons/YouTube_Kids_LogoVector.svg";
+
+/* Importando os icons da seção principal*/
+import { AiFillHome } from "react-icons/ai";
+import { SiYoutubeshorts } from "react-icons/si";
+
+/* Importando os icons da seção "Você" */
+import { MdOutlineHistory } from "react-icons/md";
+import { MdPlaylistPlay } from "react-icons/md";
+import { MdOutlineWatchLater } from "react-icons/md";
+import { SlLike } from "react-icons/sl";
+import { GoVideo } from "react-icons/go";
+import { MdDownload } from "react-icons/md";
+
+/*Importando os icons da seção "Explorar*/
+import { MdOutlineShoppingBag } from "react-icons/md";
+import { MdOutlineMusicNote } from "react-icons/md";
+import { MdOutlineMovie } from "react-icons/md";
+import { MdExpandMore } from "react-icons/md";
+import { MdFlag } from "react-icons/md";
+
 const chips = [
   "Tudo",
   "Inteligência Artifical",
@@ -53,11 +75,119 @@ const subscriptions = [
   },
 ];
 
+const navItems = [
+  // MAIN
+  {
+    id: 1,
+    icon: AiFillHome,
+    label: "Início",
+    type: "main",
+  },
+  {
+    id: 2,
+    icon: SiYoutubeshorts,
+    label: "Shorts",
+    type: "main",
+  },
+
+  // LIBRARY
+  {
+    id: 3,
+    icon: MdOutlineHistory,
+    label: "Histórico",
+    type: "library",
+  },
+  {
+    id: 4,
+    icon: MdPlaylistPlay,
+    label: "Playlists",
+    type: "library",
+  },
+  {
+    id: 5,
+    icon: MdOutlineWatchLater,
+    label: "Assistir mais tarde",
+    type: "library",
+  },
+  {
+    id: 6,
+    icon: SlLike,
+    label: 'Vídeos com "Gostei"',
+    type: "library",
+  },
+  {
+    id: 7,
+    icon: GoVideo,
+    label: "Seus vídeos",
+    type: "library",
+  },
+  {
+    id: 8,
+    icon: MdDownload,
+    label: "Downloads",
+    type: "library",
+  },
+
+  // EXPLORE
+  {
+    id: 9,
+    icon: MdOutlineShoppingBag,
+    label: "Shopping",
+    type: "explore",
+  },
+  {
+    id: 10,
+    icon: MdOutlineMusicNote,
+    label: "Música",
+    type: "explore",
+  },
+  {
+    id: 11,
+    icon: MdOutlineMovie,
+    label: "Filmes",
+    type: "explore",
+  },
+  {
+    id: 12,
+    icon: MdExpandMore,
+    label: "Mostrar mais",
+    type: "explore",
+  },
+  {
+    id: 13,
+    icon: MdFlag,
+    label: "Histórico de denúncias",
+    type: "more",
+  },
+];
+
+const youtubeItems = [
+  {
+    id: 1,
+    icon: "/images/icons/yt_icon.png",
+    label: "YouTube Premium",
+  },
+  {
+    id: 2,
+    icon: "/images/icons/Youtube_Music_icon.svg",
+    label: "YouTube Music",
+  },
+  {
+    id: 3,
+    icon: "images/icons/YouTube_Kids_LogoVector.svg",
+    label: "YouTube Kids",
+  },
+];
+
 const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerWrapper}>
-        <Aside subscriptions={subscriptions} />
+        <Aside
+          subscriptions={subscriptions}
+          navItems={navItems}
+          youtubeItems={youtubeItems}
+        />
         <Main chips={chips} />
       </div>
     </div>

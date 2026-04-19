@@ -5,9 +5,7 @@ import Chips from "../Chips/Chips";
 const Main = ({ chips }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.containerChips}>
-        <Chips chips={chips} />
-      </div>
+      <Chips chips={chips} />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import styles from "./navbar.module.scss";
 
-import ytLogo from "../../assets/images/icons/youtube_main_logo.svg";
+import ytLogo from "../../../public/images/icons/youtube_main_logo.svg";
 
 import { FiPlus } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";

@@ -1,41 +1,40 @@
-import React from "react";
 import styles from "./aside.module.scss";
 
-import { AiFillHome } from "react-icons/ai";
-import { SiYoutubeshorts } from "react-icons/si";
-import { MdOutlineHistory } from "react-icons/md";
-import { MdPlaylistAddCheck } from "react-icons/md";
-import { MdOutlineWatchLater } from "react-icons/md";
-import { SlLike } from "react-icons/sl";
-import { GoVideo } from "react-icons/go";
-import { MdDownload } from "react-icons/md";
-import { MdNavigateNext } from "react-icons/md";
-
 import Subscriptions from "./Subscriptions/Subscriptions";
+import NavItems from "./NavItems/NavItems";
 
-const Aside = ({ subscriptions }) => {
+import { IoIosArrowForward } from "react-icons/io";
+
+const Aside = ({ subscriptions, navItems, youtubeItems }) => {
   return (
     <div className={styles.container}>
       <section className={styles.containerMain}>
-        <div className={styles.containerMainHome}>
-          <div>
-            <AiFillHome />
-            <a href="/">Início</a>
-          </div>
-          <div>
-            <SiYoutubeshorts />
-            <a href="/">Shorts</a>
-          </div>
-        </div>
+        <NavItems navItems={navItems.filter((i) => i.type === "main")} />
       </section>
       <section className={styles.containerSubs}>
         <div>
-          <span>Inscrições</span>
-          <MdNavigateNext />
+          <span>Incrições</span>
+          <IoIosArrowForward />
         </div>
         <Subscriptions subscriptions={subscriptions} />
+        <NavItems navItems={[navItems[11]]} />
       </section>
-      <div className={styles.containerYou}></div>
+      <section>
+        <div>
+          <span>Você</span>
+        </div>
+        <NavItems navItems={navItems.filter((i) => i.type === "library")} />
+      </section>
+      <section>
+        <span>Explorar</span>
+        <NavItems navItems={navItems.filter((i) => i.type === "explore")} />
+      </section>
+      <section>
+        <NavItems navItems={youtubeItems} />
+      </section>
+      <section>
+        <NavItems navItems={navItems.filter((i) => i.type === "more")} />
+      </section>
     </div>
   );
 };
