@@ -2,13 +2,13 @@ import styles from "./subscriptions.module.scss";
 
 const Subscriptions = ({ subscriptions }) => {
   return (
-    <div>
-      <div className={styles.containerSubsChannels}>
+    <div className={styles.container}>
+      <div className={styles.containerChannels}>
         {subscriptions.map((subscribe) => {
           return (
             <div
               key={subscribe.id}
-              className={styles.containerSubsChannelsItem}
+              className={styles.containerChannelsItem}
             >
               <img src={subscribe.url} alt="Canal" />
               <span>{subscribe.name}</span>

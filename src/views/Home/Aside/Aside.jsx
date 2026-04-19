@@ -11,36 +11,29 @@ import { GoVideo } from "react-icons/go";
 import { MdDownload } from "react-icons/md";
 import { MdNavigateNext } from "react-icons/md";
 
+import Subscriptions from "./Subscriptions/Subscriptions";
+
 const Aside = ({ subscriptions }) => {
   return (
     <div className={styles.container}>
       <section className={styles.containerMain}>
         <div className={styles.containerMainHome}>
-          <div className={styles.containerMainHomeInit}>
+          <div>
             <AiFillHome />
             <a href="/">Início</a>
           </div>
-          <div className={styles.containerMainHomeShorts}>
+          <div>
             <SiYoutubeshorts />
             <a href="/">Shorts</a>
           </div>
         </div>
       </section>
       <section className={styles.containerSubs}>
-        <div className={styles.containerSubsOne}>
+        <div>
           <span>Inscrições</span>
           <MdNavigateNext />
         </div>
-        <div className={styles.containerSubsChannels}>
-          {subscriptions.map((subscribe) => {
-            return (
-              <div key={subscribe.id} className={styles.containerSubsChannelsItem}>
-                <img src={subscribe.url} alt="Canal" />
-                <span>{subscribe.name}</span>
-              </div>
-            );
-          })}
-        </div>
+        <Subscriptions subscriptions={subscriptions} />
       </section>
       <div className={styles.containerYou}></div>
     </div>

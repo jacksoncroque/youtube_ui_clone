@@ -1,3 +1,35 @@
 .container {
-    
+  display: flex;
+  flex-direction: column;
+
+  &Channels {
+    display: flex;
+    flex-direction: column;
+
+    &Item {
+      display: flex;
+      align-items: center;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+
+      & > img {
+        width: 1.5rem;
+        border-radius: 100%;
+        margin: 0.725rem;
+      }
+
+      & > span {
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        color: #000;
+        font-size: 0.875rem;
+        margin: 0.725rem;
+      }
+    }
+
+    &Item:hover {
+      background-color: var(--bg-color);
+    }
+  }
 }
