@@ -1,0 +1,26 @@
+.container {
+  &Image {
+    & > img {
+      height: 100%;
+      width: 100%;
+      border-radius: var(--border-radius);
+    }
+  }
+
+  &Top {
+    display: flex;
+
+    & > img {
+      height: 2.25rem;
+      width: 2.25rem;
+      border-radius: 100%;
+      margin: 0 0.5rem 0 0;
+    }
+
+    & > span {
+      font-size: 1rem;
+      line-height: 1.37rem;
+      font-weight: 500;
+    }
+  }
+}

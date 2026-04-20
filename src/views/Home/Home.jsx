@@ -13,6 +13,7 @@ const chips = [
   "Computadores de mesa",
   "Sistema Operacional",
   "Edições jornalísticas",
+  "Programação de computadores"
 ];
 
 const subscriptions = [
@@ -157,6 +158,46 @@ const youtubeItems = [
   },
 ];
 
+const videoCard = [
+  {
+    id: 1,
+    title: "Aprenda todos os conceitos básicos de JavaScript em 20 minutos",
+    thumbnail:
+      "https://i.ytimg.com/vi/xKOyDDuQSVY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDytzaCMPmR3RixxrXaO8BG6Vks1w",
+    preview: "/videos/learn_js.mp4",
+    channel: "Coding2GO",
+    channelImage:
+      "https://yt3.ggpht.com/DDvCeQPtcL0K2b96Q8cP0x-d5RWX-tXCUDAxvQUvD0_m26Jt1gyHuXCfxN9Xo1EQVckPF1miNDg=s88-c-k-c0x00ffffff-no-rj",
+    visualizations: "24 mil visualizações",
+    uploadAt: "há 2 semanas",
+  },
+  {
+    id: 2,
+    title:
+      "PROJETO DE FILMES COM REACT E API DO TMDB (REACT ROUTER, REACT HOOKS)",
+    thumbnail:
+      "https://i.ytimg.com/vi/XqxUHVVO7-U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeorIZAqwfuPDIkwnkx0d__JaUBA",
+    preview: "/videos/film-project.mp4",
+    channel: "Matheus Battisti - Hora de Codar",
+    channelImage:
+      "https://yt3.ggpht.com/uPCkzVLQAv_qhRQJ_cGGfAZvWCNQ-eaxGVcvXlVjpV3qALP5r1-HvC1nLBmGAlS2At_z-I70bg=s88-c-k-c0x00ffffff-no-rj",
+    visualizations: "84 mil visualizações",
+    uploadAt: "há 3 anos",
+  },
+  {
+    id: 3,
+    title: "Domine o React Router de forma fácil",
+    thumbnail:
+      "https://i.ytimg.com/vi/c02YoWR9gSY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCr7fc8lUVI_gF7XjLFaLzfZs3gqw",
+    preview: "/videos/domine_router.mp4",
+    channel: "Nova Designs",
+    channelImage:
+      "https://yt3.ggpht.com/OtO6tCDjPSx4XZKj4AQdI4jXHoaIaKv_UU2Q_3uw4chk3ifTyhMFSBYJaoMjySb-ihS_ILd7Nw=s88-c-k-c0x00ffffff-no-rj",
+    visualizations: "94 mil visualizações",
+    uploadAt: "há 1 ano",
+  },
+];
+
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -166,7 +207,7 @@ const Home = () => {
           navItems={navItems}
           youtubeItems={youtubeItems}
         />
-        <Main chips={chips} />
+        <Main chips={chips} videoCard={videoCard} />
       </div>
     </div>
   );
