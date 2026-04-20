@@ -33,62 +33,67 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
         <NavItems navItems={navItems.filter((i) => i.type === "explore")} />
       </section>
       <section className={styles.containerYoutube}>
-        <div className={styles.containerYoutubeTitle}><span>Mais do YouTube</span></div>
+        <div className={styles.containerYoutubeTitle}>
+          <span>Mais do YouTube</span>
+        </div>
         <NavItems navItems={youtubeItems} />
       </section>
       <section className={styles.containerDenuncies}>
         <NavItems navItems={navItems.filter((i) => i.type === "more")} />
       </section>
       <section className={styles.containerFooter}>
-        <ul>
-          <li>
-            <a href="/">Sobre</a>
-          </li>
-          <li>
-            <a href="/">Imprensa</a>
-          </li>
-          <li>
-            <a href="/">Direitos autorais</a>
-          </li>
-          <li>
-            <a href="/">Entre em contato</a>
-          </li>
-          <li>
-            <a href="/">Criadores de conteúdo</a>
-          </li>
-          <li>
-            <a href="/">Publicidade</a>
-          </li>
-          <li>
-            <a href="/">Desenvolvedores</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Termos</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Privacidade</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Política e segurança</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Como funciona o YouTube</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="/">Testar os novos recursos</a>
-          </li>
-        </ul>
+        <div className={styles.containerFooterMain}>
+          <ul>
+            <li>
+              <a href="/">Sobre</a>
+              <span style={{ margin: "0 0.25rem" }}></span>
+              <a href="/">Imprensa</a>
+            </li>
+            <li>
+              <a href="/">Direitos autorais</a>
+            </li>
+            <li>
+              <a href="/">Entre em contato</a>
+            </li>
+            <li>
+              <a href="/">Criadores de conteúdo</a>
+            </li>
+            <li>
+              <a href="/">Publicidade</a>
+              <span style={{ margin: "0 0.25rem" }}></span>
+              <a href="/">Desenvolvedores</a>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.containerFooterSub}>
+          <ul>
+            <li>
+              <a href="/">Termos</a>
+              <span style={{ margin: "0 0.25rem" }}></span>
+              <a href="/">Privacidade</a>
+            </li>
+          </ul>
+          <ul></ul>
+          <ul>
+            <li>
+              <a href="/">Política e segurança</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/">Como funciona o YouTube</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/">Testar os novos recursos</a>
+            </li>
+          </ul>
+        </div>
       </section>
+      <div className={styles.containerCopyright}>
+        <span>&copy;{new Date().getFullYear()} Google LLC</span>
+      </div>
     </div>
   );
 };
