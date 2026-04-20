@@ -3,28 +3,6 @@ import styles from "./home.module.scss";
 import Aside from "./Aside/Aside";
 import Main from "./Main/Main";
 
-import ytMusic from "../../../public/images/icons/Youtube_Music_icon.svg";
-import ytKids from "../../../public/images/icons/YouTube_Kids_LogoVector.svg";
-
-/* Importando os icons da seção principal*/
-import { AiFillHome } from "react-icons/ai";
-import { SiYoutubeshorts } from "react-icons/si";
-
-/* Importando os icons da seção "Você" */
-import { MdOutlineHistory } from "react-icons/md";
-import { MdPlaylistPlay } from "react-icons/md";
-import { MdOutlineWatchLater } from "react-icons/md";
-import { SlLike } from "react-icons/sl";
-import { GoVideo } from "react-icons/go";
-import { MdDownload } from "react-icons/md";
-
-/*Importando os icons da seção "Explorar*/
-import { MdOutlineShoppingBag } from "react-icons/md";
-import { MdOutlineMusicNote } from "react-icons/md";
-import { MdOutlineMovie } from "react-icons/md";
-import { MdExpandMore } from "react-icons/md";
-import { MdFlag } from "react-icons/md";
-
 const chips = [
   "Tudo",
   "Inteligência Artifical",
@@ -79,13 +57,13 @@ const navItems = [
   // MAIN
   {
     id: 1,
-    icon: AiFillHome,
+    icon: "/images/icons/home.svg",
     label: "Início",
     type: "main",
   },
   {
     id: 2,
-    icon: SiYoutubeshorts,
+    icon: "/images/icons/shorts.svg",
     label: "Shorts",
     type: "main",
   },
@@ -93,37 +71,37 @@ const navItems = [
   // LIBRARY
   {
     id: 3,
-    icon: MdOutlineHistory,
+    icon: "/images/icons/history.svg",
     label: "Histórico",
     type: "library",
   },
   {
     id: 4,
-    icon: MdPlaylistPlay,
+    icon: "/images/icons/playlists.svg",
     label: "Playlists",
     type: "library",
   },
   {
     id: 5,
-    icon: MdOutlineWatchLater,
+    icon: "/images/icons/watch_later.svg",
     label: "Assistir mais tarde",
     type: "library",
   },
   {
     id: 6,
-    icon: SlLike,
+    icon: "/images/icons/liked.svg",
     label: 'Vídeos com "Gostei"',
     type: "library",
   },
   {
     id: 7,
-    icon: GoVideo,
+    icon: "/images/icons/videos.svg",
     label: "Seus vídeos",
     type: "library",
   },
   {
     id: 8,
-    icon: MdDownload,
+    icon: "/images/icons/download.svg",
     label: "Downloads",
     type: "library",
   },
@@ -131,31 +109,31 @@ const navItems = [
   // EXPLORE
   {
     id: 9,
-    icon: MdOutlineShoppingBag,
+    icon: "/images/icons/shopping.svg",
     label: "Shopping",
     type: "explore",
   },
   {
     id: 10,
-    icon: MdOutlineMusicNote,
+    icon: "/images/icons/music.svg",
     label: "Música",
     type: "explore",
   },
   {
     id: 11,
-    icon: MdOutlineMovie,
+    icon: "/images/icons/films.svg",
     label: "Filmes",
     type: "explore",
   },
   {
     id: 12,
-    icon: MdExpandMore,
+    icon: "/images/icons/more.svg",
     label: "Mostrar mais",
     type: "explore",
   },
   {
     id: 13,
-    icon: MdFlag,
+    icon: "/images/icons/denuncies.svg",
     label: "Histórico de denúncias",
     type: "more",
   },
@@ -164,7 +142,7 @@ const navItems = [
 const youtubeItems = [
   {
     id: 1,
-    icon: "/images/icons/yt_icon.png",
+    icon: "/images/icons/premium.svg",
     label: "YouTube Premium",
   },
   {

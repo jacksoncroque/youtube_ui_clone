@@ -7,11 +7,11 @@ const NavItems = ({ navItems }) => {
         const Icon = item.icon;
 
         return (
-          <div key={item.id} className={styles.item}>
+          <div key={item.id} className={styles.containerItems}>
             {typeof item.icon === "string" ? (
               <img src={item.icon} alt={item.label} />
             ) : (
-              <Icon size={25} />
+              <Icon />
             )}
             <span>{item.label}</span>
           </div>
