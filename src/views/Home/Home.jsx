@@ -13,7 +13,11 @@ const chips = [
   "Computadores de mesa",
   "Sistema Operacional",
   "Edições jornalísticas",
-  "Programação de computadores"
+  "Programação de computadores",
+  "JavaScript",
+  "Arranjo",
+  "Ao vivo",
+  "Código Fonte",
 ];
 
 const subscriptions = [

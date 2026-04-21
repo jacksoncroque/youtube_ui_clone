@@ -1,26 +1,31 @@
 .container {
+  border-radius: var(--border-radius);
+  padding: .3rem;
+
+
   &Image {
     & > img {
       height: 100%;
       width: 100%;
       border-radius: var(--border-radius);
+      margin: 0 0 1rem 0;
     }
   }
 
   &Top {
     display: flex;
 
-    & > img {
+    & img {
       height: 2.25rem;
       width: 2.25rem;
       border-radius: 100%;
-      margin: 0 0.5rem 0 0;
+      margin: 0 0.8rem 0 0;
     }
+  }
 
-    & > span {
-      font-size: 1rem;
-      line-height: 1.37rem;
-      font-weight: 500;
-    }
+  & > span {
+    font-size: 1rem;
+    line-height: 1.37rem;
+    font-weight: 500;
   }
 }

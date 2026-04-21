@@ -9,7 +9,10 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
   return (
     <div className={styles.container}>
       <section className={styles.containerMain}>
-        <NavItems navItems={navItems.filter((i) => i.type === "main")} />
+        <NavItems
+          navItems={navItems.filter((i) => i.type === "main")}
+          firstSelected
+        />
       </section>
       <section className={styles.containerSubs}>
         <div className={styles.containerSubsTitle}>
