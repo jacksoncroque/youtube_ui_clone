@@ -5,14 +5,14 @@
   padding: 0 1.5rem;
   overflow-y: auto;
   height: calc(100vh - 56px);
-  overflow-y: hidden;
+  // overflow-y: hidden;
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 
-  &:hover {
+/*   &:hover {
     overflow-y: auto;
   }
-
+ */
   &::-webkit-scrollbar {
     width: 8px;
   }
@@ -22,9 +22,25 @@
     border-radius: 8px;
   }
 
+  &Title {
+    display: flex;
+    margin: 2rem 0 0 0 ;
+
+    &Main {
+      display: flex;
+    }
+  }
+
   &Main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+  }
+
+  &Shorts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 8px;
     width: 100%;
   }

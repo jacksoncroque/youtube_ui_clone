@@ -202,6 +202,80 @@ const videoCard = [
   },
 ];
 
+const shorts = [
+  {
+    id: 1,
+    thumbnail:
+      "https://i.ytimg.com/vi/IjqSSyjrWPA/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCm4DBYOa0Niu0walxWB4NCLQ9J1Q&usqp=CCk",
+    preview: "/videos/simple_design_ui.mp4",
+    title: "Simple Sign In Form UI using HTML & CSS",
+    visualizations: "4,1mi de visualizações",
+    type: "first",
+  },
+  {
+    id: 2,
+    thumbnail:
+      "https://i.ytimg.com/vi/sNq1ooPOXvU/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDjhBgWnZKNk7Y2hKp5kdC0DULH0A&usqp=CCk",
+    preview: "/videos/resumo_js.mp4",
+    title: "Resumo meia boca de JavaScript",
+    visualizations: "15 mil visualizações",
+    type: "first",
+  },
+  {
+    id: 3,
+    thumbnail:
+      "https://i.ytimg.com/vi/ZxDcTwe2ZA8/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDxL3oYqYbAemwgI1BI9f8gnsnPiQ&usqp=CCk",
+    title: "Rosalía performing Berghain in Milan",
+    preview: "/videos/rosalia.mp4",
+    visualizations: "177 mil visualizações",
+    type: "first",
+  },
+  {
+    id: 4,
+    thumbnail:
+      "https://i.ytimg.com/vi/pCvbDzLWcGk/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBgE0mB7OW9SoQEvlVf6NeQfEhpWg&usqp=CCk",
+    preview: "/video/excel.mp4",
+    title: "Como economizar espaço na planilha do Excel girando",
+    visualizations: "1,1 mi de visualizações",
+    type: "first",
+  },
+  {
+    id: 5,
+    thumbnail:
+      "https://i.ytimg.com/vi/Doy3oDTtPIY/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBp4UJnkLKr98CsmWf3OAVzzARySA&usqp=CCk",
+    preview: "/videos/dev_junior.mp4",
+    title: "5 COISAS QUE TODO FRONTEND JUNIOR DEVE",
+    visualizations: "232 mil visualizações",
+    type: "second",
+  },
+  {
+    id: 6,
+    thumbnail:
+      "https://i.ytimg.com/vi/hwFbKo4Qk0s/oardefault.jpg?sqp=-oaymwEoCJYDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCUfJjTy-n_aYerTBtuS8CLzDor5w&usqp=CCk",
+    preview: "/video/ph.mp4",
+    title: "FAÇA um IDENTIFICADOR de PH em CASA!",
+    visualizations: "98 mil visualizações",
+    type: "second",
+  },
+  {
+    id: 7,
+    thumbnail:
+      "https://i.ytimg.com/vi/lhFpG3zSH7A/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBpvGBzay0RrdGfStSPaN48upCXqg&usqp=CCk",
+    preview: "/videos/urias.mp4",
+    title: "DA ONDE VEIO O NOME URIAS?",
+    visualizations: "24 mil visualizações",
+    type: "second",
+  },
+  {
+    id: 8,
+    thumbnail:
+      "https://i.ytimg.com/vi/YkbxFjmoOwQ/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCANPzvruYtwTypclWcP2PVDEhPTw&usqp=CCk",
+    preview: "/videos/rework.mp4",
+    title: "League of Legends Darius Rework?",
+    visualizations: "3,8 mi de visualizações",
+    type: "second",
+  },
+];
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -211,7 +285,7 @@ const Home = () => {
           navItems={navItems}
           youtubeItems={youtubeItems}
         />
-        <Main chips={chips} videoCard={videoCard} />
+        <Main chips={chips} videoCard={videoCard} shorts={shorts} />
       </div>
     </div>
   );

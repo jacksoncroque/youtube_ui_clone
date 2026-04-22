@@ -1,0 +1,28 @@
+.container {
+  border-radius: var(--border-radius);
+  padding: 0.3rem;
+  cursor: pointer;
+  
+  &Image {
+    width: fit-content;
+
+    & > img {
+      height: 22rem;
+      width: 14.6rem;
+      border-radius: var(--border-radius);
+      margin: 0 0 1rem 0;
+    }
+
+    &Content {
+        display: flex;
+
+        &Info {
+            & > h3 {
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 1.37rem;
+            }
+        }
+    }
+  }
+}
