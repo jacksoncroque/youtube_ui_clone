@@ -33,9 +33,19 @@
       }
 
       & a:last-of-type {
+        position: relative;
+
         & img {
           width: 90px;
           height: auto;
+        }
+
+        & > span {
+          position: absolute;
+          top: -6px;
+          right: -15px;
+          color: #606060;
+          font-size: .6rem;
         }
       }
     }

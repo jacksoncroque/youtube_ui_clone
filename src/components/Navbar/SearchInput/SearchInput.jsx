@@ -8,7 +8,6 @@ const SearchInput = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerMain}>
-        <CiSearch />
         <input
           type="text"
           placeholder="Pesquisar"

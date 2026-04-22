@@ -14,13 +14,17 @@ const Navbar = () => {
       <nav className={styles.containerNav}>
         <div className={styles.containerNavLogo}>
           <a href="/">
-            <RxHamburgerMenu />
+            <img
+              src="/images/icons/hamburguer.svg"
+              alt="menu"
+            />
           </a>
           <a href="/">
             <img
               src={ytLogo}
               alt="YouTube"
             />
+            <span>BR</span>
           </a>
         </div>
 
