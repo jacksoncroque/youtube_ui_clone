@@ -157,7 +157,7 @@ const youtubeItems = [
   },
   {
     id: 3,
-    icon: 'images/icons/YouTube_Kids_LogoVector.svg',
+    icon: '/youtube_ui_clone/images/icons/YouTube_Kids_LogoVector.svg',
     label: 'YouTube Kids',
   },
 ];
