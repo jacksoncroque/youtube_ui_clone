@@ -1,16 +1,42 @@
-# React + Vite
+# YouTube UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Réplica da interface do YouTube focada em fidelidade visual, componentização e interações.
 
-Currently, two official plugins are available:
+# Original
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Preview](./docs/youtube_ui_demo.gif)
 
-## React Compiler
+# Clone
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Preview](./docs/youtube_ui_clone_demo.gif)
 
-## Expanding the ESLint configuration
+# Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React
+SCSS (Sass)
+JavaScript (ES6+)
+
+# Funcionalidades
+
+Interface inspirada no YouTube
+Cards de vídeo com hover interativo
+Preview de vídeo ao passar o mouse
+Sidebar fixa
+Layout organizado em grid de vídeos
+Transições e microinterações
+
+# Diferenciais
+
+Uso de vídeos locais para evitar problemas de CORS
+Efeito de hover baseado na cor predominante da thumbnail
+Overlay animado com scale e opacity
+Controle de eventos com useRef e useEffect
+
+# Aprendizados
+
+Manipulação de vídeo com JavaScript
+Controle de eventos de hover mais complexos
+Extração de cor com fast-average-color
+Uso de pseudo-elementos para efeitos visuais
+Organização de componentes em React
+Resolução de problemas reais de CORS
