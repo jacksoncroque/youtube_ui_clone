@@ -31,11 +31,13 @@
   }
 
   &Image {
+    margin: 0 0 0.5rem 0;
+
     & > video {
-      height: 100%;
+      height: 21.875rem;
       width: 100%;
+      object-fit: cover;
       border-radius: var(--border-radius);
-      margin: 0 0 0.5rem 0;
     }
   }
 

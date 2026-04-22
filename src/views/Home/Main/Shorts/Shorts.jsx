@@ -5,14 +5,18 @@ import { FastAverageColor } from 'fast-average-color';
 
 const Shorts = ({ item }) => {
   const cardRef = useRef();
-  const imageRef = useRef();
-  const shortsRef = useRef();
+  const videoRef = useRef();
+  const timeoutRef = useRef();
 
   useEffect(() => {
-    const img = imageRef.current;
     const card = cardRef.current;
+    const video = videoRef.current;
 
-    if (!img || !card) return;
+    if (!video || !card) return;
+
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.src = video.poster;
 
     const fac = new FastAverageColor();
 
@@ -36,32 +40,32 @@ const Shorts = ({ item }) => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div
+      ref={cardRef}
+      className={styles.container}
+    >
       <div className={styles.containerImage}>
         <video
           muted
-          ref={shortsRef}
+          ref={videoRef}
           src={item.preview}
           poster={item.thumbnail}
           crossOrigin="anonymous"
           onMouseEnter={() => {
-            const video = shortsRef.current;
+            timeoutRef.current = setTimeout(() => {
+              videoRef.current.play();
 
-            if (!video) return;
-
-            video.play();
-
-            setTimeout(() => {
-              video.pause();
-              video.currentTime = 0;
-              video.load();
-            }, [5000]);
+              timeoutRef.current = setTimeout(() => {
+                videoRef.current.pause();
+                videoRef.current.currentTime = 0;
+                videoRef.current.load();
+              }, 5000);
+            }, 1000);
           }}
           onMouseLeave={() => {
-            const video = shortsRef.current;
+            clearTimeout(timeoutRef.current);
 
-            if (!video) return;
-
+            const video = videoRef.current;
             video.pause();
             video.currentTime = 0;
             video.load();

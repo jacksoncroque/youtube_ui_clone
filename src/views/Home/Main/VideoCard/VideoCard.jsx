@@ -6,6 +6,7 @@ import styles from './videoCard.module.scss';
 const VideoCard = ({ item }) => {
   const cardRef = useRef();
   const videoRef = useRef();
+  const timeoutRef = useRef();
 
   useEffect(() => {
     const card = cardRef.current;
@@ -51,19 +52,20 @@ const VideoCard = ({ item }) => {
           poster={item.thumbnail}
           crossOrigin="anonymous"
           onMouseEnter={() => {
-            const video = videoRef.current;
+            timeoutRef.current = setTimeout(() => {
+              videoRef.current.play();
 
-            video.play();
-
-            setTimeout(() => {
-              video.pause();
-              video.currentTime = 0;
-              video.load();
-            }, [5000]);
+              timeoutRef.current = setTimeout(() => {
+                videoRef.current.pause();
+                videoRef.current.currentTime = 0;
+                videoRef.current.load();
+              }, 5000);
+            }, 1000);
           }}
           onMouseLeave={() => {
-            const video = videoRef.current;
+            clearTimeout(timeoutRef.current);
 
+            const video = videoRef.current;
             video.pause();
             video.currentTime = 0;
             video.load();

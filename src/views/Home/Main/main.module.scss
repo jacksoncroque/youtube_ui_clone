@@ -5,14 +5,8 @@
   padding: 0 1.5rem;
   overflow-y: auto;
   height: calc(100vh - 56px);
-  // overflow-y: hidden;
-  scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 
-  /*   &:hover {
-    overflow-y: auto;
-  }
- */
   &::-webkit-scrollbar {
     width: 8px;
   }

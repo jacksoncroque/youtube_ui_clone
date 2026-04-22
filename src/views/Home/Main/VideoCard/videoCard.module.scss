@@ -16,13 +16,13 @@
       transform 0.3s;
     z-index: 0;
     border-radius: var(--border-radius);
-    transform: scale(0.95); 
+    transform: scale(0.95);
     pointer-events: none;
   }
 
   &:hover::before {
     opacity: 1;
-    transform: scale(1.05); 
+    transform: scale(1.05);
   }
 
   & > * {
