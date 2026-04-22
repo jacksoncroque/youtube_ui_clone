@@ -11,7 +11,7 @@ const Shorts = ({ item }) => {
           <span>{item.visualizations}</span>
         </div>
         <div className={styles.containerContentButton}>
-          <img src="public/images/icons/options.svg" alt="Opções" />
+          <img src="/images/icons/options.svg" alt="Opções" />
         </div>
       </div>
     </div>

@@ -9,9 +9,13 @@ const Main = ({ chips, videoCard, shorts }) => {
     <div className={styles.container}>
       <Chips chips={chips} />
       <div className={styles.containerMain}>
-        {videoCard.map((item) => {
-          return <VideoCard item={item} key={item.id} />;
-        })}
+        {videoCard
+          .filter((item) => {
+            return item.position === "first";
+          })
+          .map((item) => {
+            return <VideoCard item={item} key={item.id} />;
+          })}
       </div>
       <div className={styles.containerTitle}>
         <div className={styles.containerTitleMain}>
@@ -29,6 +33,15 @@ const Main = ({ chips, videoCard, shorts }) => {
           })
           .map((item) => {
             return <Shorts item={item} key={item.id} />;
+          })}
+      </div>
+      <div className={styles.containerMain}>
+        {videoCard
+          .filter((item) => {
+            return item.position === "second";
+          })
+          .map((item) => {
+            return <VideoCard item={item} key={item.id} />;
           })}
       </div>
     </div>

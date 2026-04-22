@@ -174,6 +174,7 @@ const videoCard = [
       "https://yt3.ggpht.com/DDvCeQPtcL0K2b96Q8cP0x-d5RWX-tXCUDAxvQUvD0_m26Jt1gyHuXCfxN9Xo1EQVckPF1miNDg=s88-c-k-c0x00ffffff-no-rj",
     visualizations: "24 mil visualizações",
     uploadAt: "há 2 semanas",
+    position: "first",
   },
   {
     id: 2,
@@ -187,6 +188,7 @@ const videoCard = [
       "https://yt3.ggpht.com/uPCkzVLQAv_qhRQJ_cGGfAZvWCNQ-eaxGVcvXlVjpV3qALP5r1-HvC1nLBmGAlS2At_z-I70bg=s88-c-k-c0x00ffffff-no-rj",
     visualizations: "84 mil visualizações",
     uploadAt: "há 3 anos",
+    position: "first",
   },
   {
     id: 3,
@@ -199,6 +201,87 @@ const videoCard = [
       "https://yt3.ggpht.com/OtO6tCDjPSx4XZKj4AQdI4jXHoaIaKv_UU2Q_3uw4chk3ifTyhMFSBYJaoMjySb-ihS_ILd7Nw=s88-c-k-c0x00ffffff-no-rj",
     visualizations: "94 mil visualizações",
     uploadAt: "há 1 ano",
+    position: "first",
+  },
+  {
+    id: 4,
+    title: "Ariana Grande - imperfect for you (Live on SNL)",
+    thumbnail:
+      "https://i.ytimg.com/vi/sgw3BmOb5eI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCm1n33l2daeb2BLgYk5FkQLunh-Q",
+    preview: "/videos/ariana_grande.mp4",
+    channel: "Ariana Grande",
+    channelImage:
+      "https://yt3.googleusercontent.com/vLWO1tajYHyFJ3lGkcMxKMayA-ZNUqCUYj5bOO8TWhNVL7EV-bjxmguUkZ3B2dMsAtZYir8r=s176-c-k-c0x00ffffff-no-rj-mo",
+    visualizations: "5,4 mi de visualizações",
+    uploadAt: "há 2 anos",
+    position: "second",
+  },
+  {
+    id: 5,
+    title: "Por que no ESPAÇO é IMPOSSÍVEL viajar em LINHA RETA?",
+    thumbnail:
+      "https://i.ytimg.com/vi/PbL4ei4RTqg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDyEI7AZ8U4Scf619pxj52aTPz75Q",
+    preview: "/videos/espaço.mp4",
+    channel: "Blu Ciência",
+    channelImage:
+      "https://yt3.ggpht.com/0BeiW_fPv7e-_yc1oRBdRuRn-vprcV7GJgxR5TJFwxPrGo0qQwPsZQfpM2U_ucXPhaZNRvQdYg=s68-c-k-c0x00ffffff-no-rj",
+    visualizations: "24 mil visualizações",
+    uploadAt: "há 3 dias",
+    position: "second",
+  },
+  {
+    id: 6,
+    title: "O que são os algoritmos e como prendem você",
+    thumbnail:
+      "https://i.ytimg.com/vi/nj22l1gIll8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAi_NmxcrDmkwEJi4P08hZhdyOjMw",
+    preview: "/videos/algoritmo.mp4",
+    channel: "BBC News Brasil",
+    channelImage:
+      "https://yt3.ggpht.com/ytc/AIdro_nxfAGf2WYRHqMTgrScAVCAKN4ZHqwY89Z_5KirrVNsQTmi=s68-c-k-c0x00ffffff-no-rj",
+    visualizations: "238 mil visualizações",
+    uploadAt: "há 4 anos",
+    position: "second",
+  },
+  {
+    id: 7,
+    title:
+      "Como funcionam as LINGUAGENS de PROGRAMAÇÃO #SagaDosComputadores Ep. 8",
+    thumbnail:
+      "https://i.ytimg.com/vi/22nd99SLgNA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADwRlLgVVhRw8eZes3UsxRfbJCNA",
+    preview: "/videos/manual_do_mundo.mp4",
+    channel: "Manual do Mundo",
+    channelImage:
+      "https://yt3.ggpht.com/6ZMLayvP5HkX4mgU6ELfDwAl0AWFITQ43mSH7xPcXmxaRkGLbN54ugeeJ5AfY6OgAzTT71MZ=s88-c-k-c0x00ffffff-no-rj",
+    visualizations: "1,6 mi de visualizações",
+    uploadAt: "há 3 anos",
+    position: "second",
+  },
+  {
+    id: 8,
+    title:
+      "Vecna é o Novo Killer do Dead by Daylight - Novo Mapa Com TELETRANSPORTE e MAIS!",
+    thumbnail:
+      "https://i.ytimg.com/vi/u7bEgME70N4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCiWPKPIIYR8g6OCCLYD7GdCL6xOA",
+    preview: "/videos/vecna.mp4",
+    channel: "SouzaSoul",
+    channelImage:
+      "https://yt3.ggpht.com/Yqp2V7TJN8C_6Br3uR-lMvBh-bqPoux3fqI4BqmrF6AR0QhzYw7wT2lD3QmJ2Ffq0A6L9xd24w=s68-c-k-c0x00ffffff-no-rj",
+    visualizations: "140 mil visualizções",
+    uploadAt: "há 1 ano",
+    position: "second",
+  },
+  {
+    id: 9,
+    title: "10 Conceitos-Base de Computação Que Você Precisa Saber",
+    thumbnail:
+      "https://i.ytimg.com/vi/zLV586SXHsU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCpBGlIZZgw5MVuAKaJPqNc3Y-3hA",
+    preview: "/videos/computacão.mp4",
+    channel: "Arthur Takeda",
+    channelImage:
+      "https://yt3.ggpht.com/c_dwwZrEeEh-mKcIk5RFo5T6vOoxDkKzttZFhoJe5KzFYHTgat-RiGAyqlbP8cbFx7pCNfiChg=s68-c-k-c0x00ffffff-no-rj",
+    visualizations: "57 mil visualizções",
+    uploadAt: "há 2 meses",
+    position: "second",
   },
 ];
 
@@ -246,7 +329,7 @@ const shorts = [
     preview: "/videos/dev_junior.mp4",
     title: "5 COISAS QUE TODO FRONTEND JUNIOR DEVE",
     visualizations: "232 mil visualizações",
-    type: "second",
+    type: "first",
   },
   {
     id: 6,

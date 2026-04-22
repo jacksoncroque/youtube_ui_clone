@@ -9,7 +9,7 @@
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 
-/*   &:hover {
+  /*   &:hover {
     overflow-y: auto;
   }
  */
@@ -24,10 +24,24 @@
 
   &Title {
     display: flex;
-    margin: 2rem 0 0 0 ;
+    justify-content: space-between;
+    margin: 2rem 1rem;
 
     &Main {
       display: flex;
+
+      & > h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      & > img {
+        margin-right: 0.7rem;
+      }
+    }
+
+    &Button {
+      cursor: pointer;
     }
   }
 
@@ -40,7 +54,7 @@
 
   &Shorts {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 8px;
     width: 100%;
   }

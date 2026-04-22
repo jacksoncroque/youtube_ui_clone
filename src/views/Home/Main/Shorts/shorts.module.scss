@@ -2,27 +2,42 @@
   border-radius: var(--border-radius);
   padding: 0.3rem;
   cursor: pointer;
-  
-  &Image {
-    width: fit-content;
+  margin: 0 0 1.5rem 0;
 
+  &Image {
     & > img {
       height: 22rem;
       width: 14.6rem;
       border-radius: var(--border-radius);
-      margin: 0 0 1rem 0;
+      margin: 0 0 0.5rem 0;
+    }
+  }
+
+  &Content {
+    display: flex;
+
+    &Info {
+      display: flex;
+      flex-direction: column;
+      & > h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.37rem;
+      }
+
+      & > span {
+        color: var(--sub-text);
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 400;
+      }
     }
 
-    &Content {
-        display: flex;
-
-        &Info {
-            & > h3 {
-                font-size: 1rem;
-                font-weight: 500;
-                line-height: 1.37rem;
-            }
-        }
+    &Button {
+      display: flex;
+      flex-shrink: 0;
+      align-items: baseline;
+      margin: 0 0 0 .25rem;
     }
   }
 }
