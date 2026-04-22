@@ -1,4 +1,4 @@
-import styles from "./subscriptions.module.scss";
+import styles from './subscriptions.module.scss';
 
 const Subscriptions = ({ subscriptions }) => {
   return (
@@ -10,7 +10,10 @@ const Subscriptions = ({ subscriptions }) => {
               key={subscribe.id}
               className={styles.containerChannelsItem}
             >
-              <img src={subscribe.url} alt="Canal" />
+              <img
+                src={subscribe.url}
+                alt="Canal"
+              />
               <span>{subscribe.name}</span>
             </div>
           );

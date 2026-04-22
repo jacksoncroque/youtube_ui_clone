@@ -1,3 +1,3 @@
-import NavButtons from "./NavButtons";
+import NavButtons from './NavButtons';
 
 export default NavButtons;

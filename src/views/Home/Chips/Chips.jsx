@@ -1,7 +1,7 @@
-import styles from "./chips.module.scss";
+import styles from './chips.module.scss';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 const Chips = ({ chips }) => {
   return (
@@ -13,7 +13,10 @@ const Chips = ({ chips }) => {
       >
         {chips.map((chip) => {
           return (
-            <SwiperSlide key={chip} className={styles.containerMainSwiper}>
+            <SwiperSlide
+              key={chip}
+              className={styles.containerMainSwiper}
+            >
               <span>{chip}</span>
             </SwiperSlide>
           );

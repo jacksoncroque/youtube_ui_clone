@@ -1,6 +1,6 @@
-import styles from "./navItems.module.scss";
+import styles from './navItems.module.scss';
 
-import cn from "classnames";
+import cn from 'classnames';
 
 const NavItems = ({ navItems, firstSelected = false }) => {
   return (
@@ -15,8 +15,11 @@ const NavItems = ({ navItems, firstSelected = false }) => {
               [styles.containerItemsActive]: firstSelected && index === 0,
             })}
           >
-            {typeof item.icon === "string" ? (
-              <img src={item.icon} alt={item.label} />
+            {typeof item.icon === 'string' ? (
+              <img
+                src={item.icon}
+                alt={item.label}
+              />
             ) : (
               <Icon />
             )}

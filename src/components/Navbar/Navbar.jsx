@@ -1,12 +1,12 @@
-import styles from "./navbar.module.scss";
+import styles from './navbar.module.scss';
 
-import ytLogo from "../../../public/images/icons/youtube_main_logo.svg";
+import ytLogo from '../../../public/images/icons/youtube_main_logo.svg';
 
-import { FiPlus } from "react-icons/fi";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { FiPlus } from 'react-icons/fi';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
-import SearchInput from "./SearchInput/SearchInput";
-import NavButtons from "./NavButtons/NavButtons";
+import SearchInput from './SearchInput/SearchInput';
+import NavButtons from './NavButtons/NavButtons';
 
 const Navbar = () => {
   return (
@@ -17,7 +17,10 @@ const Navbar = () => {
             <RxHamburgerMenu />
           </a>
           <a href="/">
-            <img src={ytLogo} alt="YouTube" />
+            <img
+              src={ytLogo}
+              alt="YouTube"
+            />
           </a>
         </div>
 

@@ -1,9 +1,12 @@
-import styles from "./shorts.module.scss";
+import styles from './shorts.module.scss';
 const Shorts = ({ item }) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerImage}>
-        <img src={item.thumbnail} alt="Capa do vídeo" />
+        <img
+          src={item.thumbnail}
+          alt="Capa do vídeo"
+        />
       </div>
       <div className={styles.containerContent}>
         <div className={styles.containerContentInfo}>
@@ -11,7 +14,10 @@ const Shorts = ({ item }) => {
           <span>{item.visualizations}</span>
         </div>
         <div className={styles.containerContentButton}>
-          <img src="/images/icons/options.svg" alt="Opções" />
+          <img
+            src="/images/icons/options.svg"
+            alt="Opções"
+          />
         </div>
       </div>
     </div>

@@ -1,3 +1,3 @@
-import VideoCard from "./VideoCard";
+import VideoCard from './VideoCard';
 
 export default VideoCard;

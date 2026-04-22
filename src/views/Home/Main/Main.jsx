@@ -1,8 +1,8 @@
-import styles from "./main.module.scss";
+import styles from './main.module.scss';
 
-import Chips from "../Chips";
-import VideoCard from "./VideoCard";
-import Shorts from "./Shorts/";
+import Chips from '../Chips';
+import VideoCard from './VideoCard';
+import Shorts from './Shorts/';
 
 const Main = ({ chips, videoCard, shorts }) => {
   return (
@@ -11,37 +11,58 @@ const Main = ({ chips, videoCard, shorts }) => {
       <div className={styles.containerMain}>
         {videoCard
           .filter((item) => {
-            return item.position === "first";
+            return item.position === 'first';
           })
           .map((item) => {
-            return <VideoCard item={item} key={item.id} />;
+            return (
+              <VideoCard
+                item={item}
+                key={item.id}
+              />
+            );
           })}
       </div>
       <div className={styles.containerTitle}>
         <div className={styles.containerTitleMain}>
-          <img src="./images/icons/shorts_red.svg" alt="YouTube Shorts" />
+          <img
+            src="./images/icons/shorts_red.svg"
+            alt="YouTube Shorts"
+          />
           <h3>Shorts</h3>
         </div>
         <div className={styles.containerTitleButton}>
-          <img src="./images/icons/options.svg" alt="Opções" />
+          <img
+            src="./images/icons/options.svg"
+            alt="Opções"
+          />
         </div>
       </div>
       <div className={styles.containerShorts}>
         {shorts
           .filter((item) => {
-            return item.type === "first";
+            return item.type === 'first';
           })
           .map((item) => {
-            return <Shorts item={item} key={item.id} />;
+            return (
+              <Shorts
+                item={item}
+                key={item.id}
+              />
+            );
           })}
       </div>
       <div className={styles.containerMain}>
         {videoCard
           .filter((item) => {
-            return item.position === "second";
+            return item.position === 'second';
           })
           .map((item) => {
-            return <VideoCard item={item} key={item.id} />;
+            return (
+              <VideoCard
+                item={item}
+                key={item.id}
+              />
+            );
           })}
       </div>
     </div>

@@ -1,14 +1,20 @@
-import styles from "./videoCard.module.scss";
+import styles from './videoCard.module.scss';
 
 const VideoCard = ({ item }) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerImage}>
-        <img src={item.thumbnail} alt="Thumbnail" />
+        <img
+          src={item.thumbnail}
+          alt="Thumbnail"
+        />
       </div>
       <div className={styles.containerContent}>
         <div className={styles.containerContentImage}>
-          <img src={item.channelImage} alt="Imagem do Canal" />
+          <img
+            src={item.channelImage}
+            alt="Imagem do Canal"
+          />
         </div>
         <div className={styles.containerContentInfo}>
           <h4>{item.title}</h4>

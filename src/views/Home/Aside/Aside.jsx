@@ -1,16 +1,16 @@
-import styles from "./aside.module.scss";
+import styles from './aside.module.scss';
 
-import Subscriptions from "./Subscriptions/Subscriptions";
-import NavItems from "./NavItems/NavItems";
+import Subscriptions from './Subscriptions/Subscriptions';
+import NavItems from './NavItems/NavItems';
 
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward } from 'react-icons/io';
 
 const Aside = ({ subscriptions, navItems, youtubeItems }) => {
   return (
     <div className={styles.container}>
       <section className={styles.containerMain}>
         <NavItems
-          navItems={navItems.filter((i) => i.type === "main")}
+          navItems={navItems.filter((i) => i.type === 'main')}
           firstSelected
         />
       </section>
@@ -27,13 +27,13 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
           <span>Você</span>
           <IoIosArrowForward />
         </div>
-        <NavItems navItems={navItems.filter((i) => i.type === "library")} />
+        <NavItems navItems={navItems.filter((i) => i.type === 'library')} />
       </section>
       <section className={styles.containerExplore}>
         <div className={styles.containerExploreTitle}>
           <span>Explorar</span>
         </div>
-        <NavItems navItems={navItems.filter((i) => i.type === "explore")} />
+        <NavItems navItems={navItems.filter((i) => i.type === 'explore')} />
       </section>
       <section className={styles.containerYoutube}>
         <div className={styles.containerYoutubeTitle}>
@@ -42,14 +42,14 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
         <NavItems navItems={youtubeItems} />
       </section>
       <section className={styles.containerDenuncies}>
-        <NavItems navItems={navItems.filter((i) => i.type === "more")} />
+        <NavItems navItems={navItems.filter((i) => i.type === 'more')} />
       </section>
       <section className={styles.containerFooter}>
         <div className={styles.containerFooterMain}>
           <ul>
             <li>
               <a href="/">Sobre</a>
-              <span style={{ margin: "0 0.25rem" }}></span>
+              <span style={{ margin: '0 0.25rem' }}></span>
               <a href="/">Imprensa</a>
             </li>
             <li>
@@ -63,7 +63,7 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
             </li>
             <li>
               <a href="/">Publicidade</a>
-              <span style={{ margin: "0 0.25rem" }}></span>
+              <span style={{ margin: '0 0.25rem' }}></span>
               <a href="/">Desenvolvedores</a>
             </li>
           </ul>
@@ -72,7 +72,7 @@ const Aside = ({ subscriptions, navItems, youtubeItems }) => {
           <ul>
             <li>
               <a href="/">Termos</a>
-              <span style={{ margin: "0 0.25rem" }}></span>
+              <span style={{ margin: '0 0.25rem' }}></span>
               <a href="/">Privacidade</a>
             </li>
           </ul>
