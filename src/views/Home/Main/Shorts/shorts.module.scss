@@ -2,12 +2,38 @@
   border-radius: var(--border-radius);
   padding: 0.3rem;
   cursor: pointer;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1rem 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--hover-color);
+    opacity: 0;
+    transition:
+      opacity 0.3s,
+      transform 0.3s;
+    z-index: 0;
+    border-radius: var(--border-radius);
+    transform: scale(0.95);
+    pointer-events: none;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
 
   &Image {
-    & > img {
-      height: 22rem;
-      width: 14.6rem;
+    & > video {
+      height: 100%;
+      width: 100%;
       border-radius: var(--border-radius);
       margin: 0 0 0.5rem 0;
     }

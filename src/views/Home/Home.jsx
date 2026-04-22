@@ -234,7 +234,7 @@ const videoCard = [
     title: 'O que são os algoritmos e como prendem você',
     thumbnail:
       'https://i.ytimg.com/vi/nj22l1gIll8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAi_NmxcrDmkwEJi4P08hZhdyOjMw',
-    preview: '/videos/algoritmo.mp4',
+    preview: '/videos/algoritmos.mp4',
     channel: 'BBC News Brasil',
     channelImage:
       'https://yt3.ggpht.com/ytc/AIdro_nxfAGf2WYRHqMTgrScAVCAKN4ZHqwY89Z_5KirrVNsQTmi=s68-c-k-c0x00ffffff-no-rj',
@@ -275,7 +275,7 @@ const videoCard = [
     title: '10 Conceitos-Base de Computação Que Você Precisa Saber',
     thumbnail:
       'https://i.ytimg.com/vi/zLV586SXHsU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCpBGlIZZgw5MVuAKaJPqNc3Y-3hA',
-    preview: '/videos/computacão.mp4',
+    preview: '/videos/computação.mp4',
     channel: 'Arthur Takeda',
     channelImage:
       'https://yt3.ggpht.com/c_dwwZrEeEh-mKcIk5RFo5T6vOoxDkKzttZFhoJe5KzFYHTgat-RiGAyqlbP8cbFx7pCNfiChg=s68-c-k-c0x00ffffff-no-rj',
@@ -317,7 +317,7 @@ const shorts = [
     id: 4,
     thumbnail:
       'https://i.ytimg.com/vi/pCvbDzLWcGk/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBgE0mB7OW9SoQEvlVf6NeQfEhpWg&usqp=CCk',
-    preview: '/video/excel.mp4',
+    preview: '/videos/excel.mp4',
     title: 'Como economizar espaço na planilha do Excel girando',
     visualizations: '1,1 mi de visualizações',
     type: 'first',
@@ -330,33 +330,6 @@ const shorts = [
     title: '5 COISAS QUE TODO FRONTEND JUNIOR DEVE',
     visualizations: '232 mil visualizações',
     type: 'first',
-  },
-  {
-    id: 6,
-    thumbnail:
-      'https://i.ytimg.com/vi/hwFbKo4Qk0s/oardefault.jpg?sqp=-oaymwEoCJYDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCUfJjTy-n_aYerTBtuS8CLzDor5w&usqp=CCk',
-    preview: '/video/ph.mp4',
-    title: 'FAÇA um IDENTIFICADOR de PH em CASA!',
-    visualizations: '98 mil visualizações',
-    type: 'second',
-  },
-  {
-    id: 7,
-    thumbnail:
-      'https://i.ytimg.com/vi/lhFpG3zSH7A/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBpvGBzay0RrdGfStSPaN48upCXqg&usqp=CCk',
-    preview: '/videos/urias.mp4',
-    title: 'DA ONDE VEIO O NOME URIAS?',
-    visualizations: '24 mil visualizações',
-    type: 'second',
-  },
-  {
-    id: 8,
-    thumbnail:
-      'https://i.ytimg.com/vi/YkbxFjmoOwQ/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCANPzvruYtwTypclWcP2PVDEhPTw&usqp=CCk',
-    preview: '/videos/rework.mp4',
-    title: 'League of Legends Darius Rework?',
-    visualizations: '3,8 mi de visualizações',
-    type: 'second',
   },
 ];
 const Home = () => {

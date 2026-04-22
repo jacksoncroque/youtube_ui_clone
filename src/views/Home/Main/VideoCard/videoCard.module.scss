@@ -2,9 +2,39 @@
   border-radius: var(--border-radius);
   padding: 0.3rem;
   cursor: pointer;
+  position: relative;
+  margin: 0 0 1rem 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--hover-color);
+    opacity: 0;
+    transition:
+      opacity 0.3s,
+      transform 0.3s;
+    z-index: 0;
+    border-radius: var(--border-radius);
+    transform: scale(0.95); 
+    pointer-events: none;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    transform: scale(1.05); 
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
 
   &Image {
-    & > img {
+    position: relative;
+    z-index: 1;
+
+    & > video {
       height: 100%;
       width: 100%;
       border-radius: var(--border-radius);
@@ -23,6 +53,23 @@
         width: 2.25rem;
         border-radius: 100%;
         margin: 0 0.8rem 0 0;
+      }
+    }
+
+    &Button {
+      flex-shrink: 0;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 100%;
+      margin: 0 0 0 auto;
+
+      &:hover {
+        background-color: #dad7d7;
+        opacity: 1.1;
+      }
+
+      & > img {
+        padding: 0.5rem;
       }
     }
 
