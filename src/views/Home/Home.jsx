@@ -168,7 +168,7 @@ const videoCard = [
     title: 'Aprenda todos os conceitos básicos de JavaScript em 20 minutos',
     thumbnail:
       'https://i.ytimg.com/vi/xKOyDDuQSVY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDytzaCMPmR3RixxrXaO8BG6Vks1w',
-    preview: '/videos/learn_js.mp4',
+    preview: '/youtube_ui_clone/videos/learn_js.mp4',
     channel: 'Coding2GO',
     channelImage:
       'https://yt3.ggpht.com/DDvCeQPtcL0K2b96Q8cP0x-d5RWX-tXCUDAxvQUvD0_m26Jt1gyHuXCfxN9Xo1EQVckPF1miNDg=s88-c-k-c0x00ffffff-no-rj',
@@ -182,7 +182,7 @@ const videoCard = [
       'PROJETO DE FILMES COM REACT E API DO TMDB (REACT ROUTER, REACT HOOKS)',
     thumbnail:
       'https://i.ytimg.com/vi/XqxUHVVO7-U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeorIZAqwfuPDIkwnkx0d__JaUBA',
-    preview: '/videos/film-project.mp4',
+    preview: '/youtube_ui_clone/videos/film-project.mp4',
     channel: 'Matheus Battisti - Hora de Codar',
     channelImage:
       'https://yt3.ggpht.com/uPCkzVLQAv_qhRQJ_cGGfAZvWCNQ-eaxGVcvXlVjpV3qALP5r1-HvC1nLBmGAlS2At_z-I70bg=s88-c-k-c0x00ffffff-no-rj',
@@ -195,7 +195,7 @@ const videoCard = [
     title: 'Domine o React Router de forma fácil',
     thumbnail:
       'https://i.ytimg.com/vi/c02YoWR9gSY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCr7fc8lUVI_gF7XjLFaLzfZs3gqw',
-    preview: '/videos/domine_router.mp4',
+    preview: '/youtube_ui_clone/videos/domine_router.mp4',
     channel: 'Nova Designs',
     channelImage:
       'https://yt3.ggpht.com/OtO6tCDjPSx4XZKj4AQdI4jXHoaIaKv_UU2Q_3uw4chk3ifTyhMFSBYJaoMjySb-ihS_ILd7Nw=s88-c-k-c0x00ffffff-no-rj',
@@ -208,7 +208,7 @@ const videoCard = [
     title: 'Ariana Grande - imperfect for you (Live on SNL)',
     thumbnail:
       'https://i.ytimg.com/vi/sgw3BmOb5eI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCm1n33l2daeb2BLgYk5FkQLunh-Q',
-    preview: '/videos/ariana_grande.mp4',
+    preview: '/youtube_ui_clone/videos/ariana_grande.mp4',
     channel: 'Ariana Grande',
     channelImage:
       'https://yt3.googleusercontent.com/vLWO1tajYHyFJ3lGkcMxKMayA-ZNUqCUYj5bOO8TWhNVL7EV-bjxmguUkZ3B2dMsAtZYir8r=s176-c-k-c0x00ffffff-no-rj-mo',
@@ -221,7 +221,7 @@ const videoCard = [
     title: 'Por que no ESPAÇO é IMPOSSÍVEL viajar em LINHA RETA?',
     thumbnail:
       'https://i.ytimg.com/vi/PbL4ei4RTqg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDyEI7AZ8U4Scf619pxj52aTPz75Q',
-    preview: '/videos/espaço.mp4',
+    preview: '/youtube_ui_clone/videos/espaço.mp4',
     channel: 'Blu Ciência',
     channelImage:
       'https://yt3.ggpht.com/0BeiW_fPv7e-_yc1oRBdRuRn-vprcV7GJgxR5TJFwxPrGo0qQwPsZQfpM2U_ucXPhaZNRvQdYg=s68-c-k-c0x00ffffff-no-rj',
@@ -234,7 +234,7 @@ const videoCard = [
     title: 'O que são os algoritmos e como prendem você',
     thumbnail:
       'https://i.ytimg.com/vi/nj22l1gIll8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAi_NmxcrDmkwEJi4P08hZhdyOjMw',
-    preview: '/videos/algoritmos.mp4',
+    preview: '/youtube_ui_clone/videos/algoritmos.mp4',
     channel: 'BBC News Brasil',
     channelImage:
       'https://yt3.ggpht.com/ytc/AIdro_nxfAGf2WYRHqMTgrScAVCAKN4ZHqwY89Z_5KirrVNsQTmi=s68-c-k-c0x00ffffff-no-rj',
@@ -248,7 +248,7 @@ const videoCard = [
       'Como funcionam as LINGUAGENS de PROGRAMAÇÃO #SagaDosComputadores Ep. 8',
     thumbnail:
       'https://i.ytimg.com/vi/22nd99SLgNA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADwRlLgVVhRw8eZes3UsxRfbJCNA',
-    preview: '/videos/manual_do_mundo.mp4',
+    preview: '/youtube_ui_clone/videos/manual_do_mundo.mp4',
     channel: 'Manual do Mundo',
     channelImage:
       'https://yt3.ggpht.com/6ZMLayvP5HkX4mgU6ELfDwAl0AWFITQ43mSH7xPcXmxaRkGLbN54ugeeJ5AfY6OgAzTT71MZ=s88-c-k-c0x00ffffff-no-rj',
@@ -262,7 +262,7 @@ const videoCard = [
       'Vecna é o Novo Killer do Dead by Daylight - Novo Mapa Com TELETRANSPORTE e MAIS!',
     thumbnail:
       'https://i.ytimg.com/vi/u7bEgME70N4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCiWPKPIIYR8g6OCCLYD7GdCL6xOA',
-    preview: '/videos/vecna.mp4',
+    preview: '/youtube_ui_clone/videos/vecna.mp4',
     channel: 'SouzaSoul',
     channelImage:
       'https://yt3.ggpht.com/Yqp2V7TJN8C_6Br3uR-lMvBh-bqPoux3fqI4BqmrF6AR0QhzYw7wT2lD3QmJ2Ffq0A6L9xd24w=s68-c-k-c0x00ffffff-no-rj',
@@ -275,7 +275,7 @@ const videoCard = [
     title: '10 Conceitos-Base de Computação Que Você Precisa Saber',
     thumbnail:
       'https://i.ytimg.com/vi/zLV586SXHsU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCpBGlIZZgw5MVuAKaJPqNc3Y-3hA',
-    preview: '/videos/computação.mp4',
+    preview: '/youtube_ui_clone/videos/computação.mp4',
     channel: 'Arthur Takeda',
     channelImage:
       'https://yt3.ggpht.com/c_dwwZrEeEh-mKcIk5RFo5T6vOoxDkKzttZFhoJe5KzFYHTgat-RiGAyqlbP8cbFx7pCNfiChg=s68-c-k-c0x00ffffff-no-rj',
@@ -290,7 +290,7 @@ const shorts = [
     id: 1,
     thumbnail:
       'https://i.ytimg.com/vi/IjqSSyjrWPA/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCm4DBYOa0Niu0walxWB4NCLQ9J1Q&usqp=CCk',
-    preview: '/videos/simple_design_ui.mp4',
+    preview: '/youtube_ui_clone/videos/simple_design_ui.mp4',
     title: 'Simple Sign In Form UI using HTML & CSS',
     visualizations: '4,1mi de visualizações',
     type: 'first',
@@ -299,7 +299,7 @@ const shorts = [
     id: 2,
     thumbnail:
       'https://i.ytimg.com/vi/sNq1ooPOXvU/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDjhBgWnZKNk7Y2hKp5kdC0DULH0A&usqp=CCk',
-    preview: '/videos/resumo_js.mp4',
+    preview: '/youtube_ui_clone/videos/resumo_js.mp4',
     title: 'Resumo meia boca de JavaScript',
     visualizations: '15 mil visualizações',
     type: 'first',
@@ -309,7 +309,7 @@ const shorts = [
     thumbnail:
       'https://i.ytimg.com/vi/ZxDcTwe2ZA8/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDxL3oYqYbAemwgI1BI9f8gnsnPiQ&usqp=CCk',
     title: 'Rosalía performing Berghain in Milan',
-    preview: '/videos/rosalia.mp4',
+    preview: '/youtube_ui_clone/videos/rosalia.mp4',
     visualizations: '177 mil visualizações',
     type: 'first',
   },
@@ -317,7 +317,7 @@ const shorts = [
     id: 4,
     thumbnail:
       'https://i.ytimg.com/vi/pCvbDzLWcGk/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBgE0mB7OW9SoQEvlVf6NeQfEhpWg&usqp=CCk',
-    preview: '/videos/excel.mp4',
+    preview: '/youtube_ui_clone/videos/excel.mp4',
     title: 'Como economizar espaço na planilha do Excel girando',
     visualizations: '1,1 mi de visualizações',
     type: 'first',
@@ -326,7 +326,7 @@ const shorts = [
     id: 5,
     thumbnail:
       'https://i.ytimg.com/vi/Doy3oDTtPIY/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBp4UJnkLKr98CsmWf3OAVzzARySA&usqp=CCk',
-    preview: '/videos/dev_junior.mp4',
+    preview: '/youtube_ui_clone/videos/dev_junior.mp4',
     title: '5 COISAS QUE TODO FRONTEND JUNIOR DEVE',
     visualizations: '232 mil visualizações',
     type: 'first',
