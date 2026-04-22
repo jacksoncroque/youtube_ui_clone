@@ -25,14 +25,14 @@ const Main = ({ chips, videoCard, shorts }) => {
       <div className={styles.containerTitle}>
         <div className={styles.containerTitleMain}>
           <img
-            src="./images/icons/shorts_red.svg"
+            src="./youtube_ui_clone/images/icons/shorts_red.svg"
             alt="YouTube Shorts"
           />
           <h3>Shorts</h3>
         </div>
         <div className={styles.containerTitleButton}>
           <img
-            src="./images/icons/options.svg"
+            src="./youtube_ui_clone/images/icons/options.svg"
             alt="Opções"
           />
         </div>

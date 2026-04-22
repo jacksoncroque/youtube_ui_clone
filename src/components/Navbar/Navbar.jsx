@@ -13,13 +13,13 @@ const Navbar = () => {
         <div className={styles.containerNavLogo}>
           <a href="/">
             <img
-              src="/images/icons/hamburguer.svg"
+              src="/youtube_ui_clone/images/icons/hamburguer.svg"
               alt="menu"
             />
           </a>
           <a href="/">
             <img
-              src="/images/icons/youtube_main_logo.svg"
+              src="/youtube_ui_clone/images/icons/youtube_main_logo.svg"
               alt="YouTube"
             />
             <span>BR</span>

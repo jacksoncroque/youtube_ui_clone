@@ -62,13 +62,13 @@ const navItems = [
   // MAIN
   {
     id: 1,
-    icon: '/images/icons/home.svg',
+    icon: '/youtube_ui_clone/images/icons/home.svg',
     label: 'Início',
     type: 'main',
   },
   {
     id: 2,
-    icon: '/images/icons/shorts.svg',
+    icon: '/youtube_ui_clone/images/icons/shorts.svg',
     label: 'Shorts',
     type: 'main',
   },
@@ -76,37 +76,37 @@ const navItems = [
   // LIBRARY
   {
     id: 3,
-    icon: '/images/icons/history.svg',
+    icon: '/youtube_ui_clone/images/icons/history.svg',
     label: 'Histórico',
     type: 'library',
   },
   {
     id: 4,
-    icon: '/images/icons/playlists.svg',
+    icon: '/youtube_ui_clone/images/icons/playlists.svg',
     label: 'Playlists',
     type: 'library',
   },
   {
     id: 5,
-    icon: '/images/icons/watch_later.svg',
+    icon: '/youtube_ui_clone/images/icons/watch_later.svg',
     label: 'Assistir mais tarde',
     type: 'library',
   },
   {
     id: 6,
-    icon: '/images/icons/liked.svg',
+    icon: '/youtube_ui_clone/images/icons/liked.svg',
     label: 'Vídeos com "Gostei"',
     type: 'library',
   },
   {
     id: 7,
-    icon: '/images/icons/videos.svg',
+    icon: '/youtube_ui_clone/images/icons/videos.svg',
     label: 'Seus vídeos',
     type: 'library',
   },
   {
     id: 8,
-    icon: '/images/icons/download.svg',
+    icon: '/youtube_ui_clone/images/icons/download.svg',
     label: 'Downloads',
     type: 'library',
   },
@@ -114,31 +114,31 @@ const navItems = [
   // EXPLORE
   {
     id: 9,
-    icon: '/images/icons/shopping.svg',
+    icon: '/youtube_ui_clone/images/icons/shopping.svg',
     label: 'Shopping',
     type: 'explore',
   },
   {
     id: 10,
-    icon: '/images/icons/music.svg',
+    icon: '/youtube_ui_clone/images/icons/music.svg',
     label: 'Música',
     type: 'explore',
   },
   {
     id: 11,
-    icon: '/images/icons/films.svg',
+    icon: '/youtube_ui_clone/images/icons/films.svg',
     label: 'Filmes',
     type: 'explore',
   },
   {
     id: 12,
-    icon: '/images/icons/more.svg',
+    icon: '/youtube_ui_clone/images/icons/more.svg',
     label: 'Mostrar mais',
     type: 'explore',
   },
   {
     id: 13,
-    icon: '/images/icons/denuncies.svg',
+    icon: '/youtube_ui_clone/images/icons/denuncies.svg',
     label: 'Histórico de denúncias',
     type: 'more',
   },
@@ -147,12 +147,12 @@ const navItems = [
 const youtubeItems = [
   {
     id: 1,
-    icon: '/images/icons/premium.svg',
+    icon: '/youtube_ui_clone/images/icons/premium.svg',
     label: 'YouTube Premium',
   },
   {
     id: 2,
-    icon: '/images/icons/Youtube_Music_icon.svg',
+    icon: '/youtube_ui_clone/images/icons/Youtube_Music_icon.svg',
     label: 'YouTube Music',
   },
   {

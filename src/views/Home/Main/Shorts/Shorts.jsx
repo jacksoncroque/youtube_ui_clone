@@ -81,7 +81,7 @@ const Shorts = ({ item }) => {
         </div>
         <div className={styles.containerContentButton}>
           <img
-            src="/images/icons/options.svg"
+            src="/youtube_ui_clone/images/icons/options.svg"
             alt="Opções"
           />
         </div>
