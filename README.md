@@ -10,6 +10,10 @@ Réplica da interface do YouTube focada em fidelidade visual, componentização 
 
 ![Preview](./docs/youtube_ui_clone_demo.gif)
 
+## Live app
+
+https://jacksoncroque.github.io/youtube_ui_clone/
+
 # Tecnologias
 
 React
